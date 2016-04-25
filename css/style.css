@@ -19,9 +19,10 @@ html * {
 
 body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "lato", Bold;
   color: #243040;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image:url(../img/LEAFS07.jpg);
 }
 
 body, html {
@@ -48,7 +49,7 @@ main {
   -webkit-overflow-scrolling: touch;
   padding: 200px 5%;
   /*background-color: #9cb3a8; */
-  background-image: url(img/LEAFS07.jpg);
+  background-image:url(../img/LEAFS07.jpg) repeat 0 0;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -104,7 +105,8 @@ main p {
   top: 20px;
   height: 54px;
   width: 54px;
-  background-color: #243040;
+  /*background-color: #243040; */
+  background-image:url(../img/LEAFS07.jpg)
   border-radius: 50%;
   /* image replacement */
   overflow: hidden;
@@ -244,7 +246,7 @@ main p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #243040;
+  background-color: #ffce45;
   visibility: hidden;
   -webkit-transition: visibility 0s 0.7s;
   -moz-transition: visibility 0s 0.7s;
